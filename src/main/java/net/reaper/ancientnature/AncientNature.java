@@ -53,8 +53,6 @@ public class AncientNature {
         return new ResourceLocation(MOD_ID, name);
     }
 
-    public static ResourceLocation entityTexture(String name){
-        return modLoc("textures/entity/" + name);
-    }
+
 
 }

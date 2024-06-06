@@ -49,6 +49,7 @@ public class ArandaspisEntity extends AbstractFish {
     @Override
     public void tick() {
         super.tick();
+
         if (this.level().isClientSide()) {
             setupAnimationStates();
         }
